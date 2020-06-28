@@ -1,4 +1,4 @@
-package com.petros.springjwt.models;
+package models;
 
 public enum ERole {
 	ROLE_USER,
