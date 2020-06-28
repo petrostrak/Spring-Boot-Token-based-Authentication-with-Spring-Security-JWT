@@ -1,4 +1,4 @@
-Spring Boot Application that supports Token based Authentication with JWT.
+Spring Boot Sample Application that supports Token based Authentication with JWT.
 
     -> Appropriate Flow for User Signup & User Login with JWT Authentication
     -> Spring Boot Application Architecture with Spring Security
