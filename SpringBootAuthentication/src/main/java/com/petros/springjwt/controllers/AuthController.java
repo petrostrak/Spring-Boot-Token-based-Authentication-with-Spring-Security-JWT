@@ -29,8 +29,9 @@ import com.petros.springjwt.payload.response.JwtResponse;
 import com.petros.springjwt.payload.response.MessageResponse;
 import com.petros.springjwt.repository.RoleRepository;
 import com.petros.springjwt.repository.UserRepository;
-import com.petros.springjwt.security.jwt.JwtUtils;
-import com.petros.springjwt.security.services.UserDetailsImpl;
+import com.petros.springjwt.security.JwtUtils;
+import com.petros.springjwt.security.UserDetailsImpl;
+
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
