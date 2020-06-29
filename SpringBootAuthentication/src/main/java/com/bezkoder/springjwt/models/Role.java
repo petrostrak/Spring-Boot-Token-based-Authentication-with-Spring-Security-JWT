@@ -1,4 +1,4 @@
-package models;
+package com.bezkoder.springjwt.models;
 
 import javax.persistence.*;
 
