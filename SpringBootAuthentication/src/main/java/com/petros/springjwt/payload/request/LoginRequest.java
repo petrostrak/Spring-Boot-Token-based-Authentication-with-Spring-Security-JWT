@@ -1,4 +1,4 @@
-package request;
+package com.petros.springjwt.payload.request;
 
 import javax.validation.constraints.NotBlank;
 

@@ -1,4 +1,4 @@
-package Response;
+package com.petros.springjwt.payload.response;
 
 import java.util.List;
 

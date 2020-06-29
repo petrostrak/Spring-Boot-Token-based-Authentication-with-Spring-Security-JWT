@@ -1,4 +1,4 @@
-package models;
+package com.petros.springjwt.models;
 
 import java.util.HashSet;
 import java.util.Set;

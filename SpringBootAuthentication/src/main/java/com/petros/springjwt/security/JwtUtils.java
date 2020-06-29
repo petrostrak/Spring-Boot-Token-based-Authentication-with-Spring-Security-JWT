@@ -1,4 +1,4 @@
-package security;
+package com.petros.springjwt.security;
 
 import java.util.Date;
 

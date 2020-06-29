@@ -1,4 +1,4 @@
-package security;
+package com.petros.springjwt.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package security;
+package com.petros.springjwt.security;
 
 import javax.transaction.Transactional;
 
@@ -8,8 +8,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import Repository.UserRepository;
-import models.User;
+import com.petros.springjwt.repository.UserRepository;
+import com.petros.springjwt.models.User;
 
 @Service
 public class UserDetailsServiceImpl implements UserDetailsService {

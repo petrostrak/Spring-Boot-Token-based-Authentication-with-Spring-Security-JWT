@@ -1,4 +1,4 @@
-package controllers;
+package com.petros.springjwt.controllers;
 
 import java.util.HashSet;
 import java.util.List;
@@ -20,17 +20,17 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import models.ERole;
-import models.Role;
-import models.User;
-import request.LoginRequest;
-import request.SignupRequest;
-import Response.JwtResponse;
-import Response.MessageResponse;
-import Repository.RoleRepository;
-import Repository.UserRepository;
-import security.JwtUtils;
-import security.UserDetailsImpl;
+import com.petros.springjwt.models.ERole;
+import com.petros.springjwt.models.Role;
+import com.petros.springjwt.models.User;
+import com.petros.springjwt.payload.request.LoginRequest;
+import com.petros.springjwt.payload.request.SignupRequest;
+import com.petros.springjwt.payload.response.JwtResponse;
+import com.petros.springjwt.payload.response.MessageResponse;
+import com.petros.springjwt.repository.RoleRepository;
+import com.petros.springjwt.repository.UserRepository;
+import com.petros.springjwt.security.jwt.JwtUtils;
+import com.petros.springjwt.security.services.UserDetailsImpl;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController

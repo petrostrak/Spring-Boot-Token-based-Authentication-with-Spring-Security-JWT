@@ -1,4 +1,4 @@
-package Response;
+package com.petros.springjwt.payload.response;
 
 public class MessageResponse {
 	private String message;
