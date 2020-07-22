@@ -14,9 +14,9 @@
   * React Components for accessing protected Resources (Authorization)
   * Dynamic Navigation Bar in React App    
 
-**Calls from Postman needed**
+***Calls from Postman needed***
    
-   //Sign up as a user
+   - [ ] Sign up as a user
    POST http://localhost:8080/api/auth/signup
    ```
    {
@@ -27,7 +27,7 @@
    }
    ```
    
-   //Sign up as an admin
+   - [ ] Sign up as an admin
    POST http://localhost:8080/api/auth/signup
    ```
    {
@@ -38,7 +38,7 @@
    }
    ```   
    
-   //Sign up as a moderator
+   - [ ] Sign up as a moderator
    POST http://localhost:8080/api/auth/signup
    ```
    {
@@ -49,7 +49,7 @@
    }    
    ```
    
-   // Sign in
+   - [ ] Sign in
    POST http://localhost:8080/api/auth/signin
    ```
    {
