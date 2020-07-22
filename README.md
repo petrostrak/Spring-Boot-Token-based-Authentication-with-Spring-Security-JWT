@@ -57,3 +57,10 @@
     "password":"12345678"
    }
    ```
+  # Docker commands
+  
+  ```
+  docker-compose up
+  docker-compose down
+  docker-compose ps
+  ```
